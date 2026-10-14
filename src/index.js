@@ -1,15 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to React</title>
 
-import App from './App';
+    <!-- React CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+   <!-- include the required cdn link here-->
+</head>
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root')
-);
+<body>
+    <div id="root"></div>
+<!-- Intialize the root tag -->
 
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+<!-- link your index.js here -->
+<script src="index.js"></script>
 
+</body>
+</html>
