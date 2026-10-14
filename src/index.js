@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Welcome to React</title>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-    <!-- React CDN -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-   <!-- include the required cdn link here-->
-</head>
-
-<body>
-    <div id="root"></div>
-<!-- Intialize the root tag -->
-
-<!-- link your index.js here -->
-<script src="index.js"></script>
-
-</body>
-</html>
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
